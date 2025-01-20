@@ -4,8 +4,8 @@ import praw
 def test_reddit_connection():
     try:
         reddit = praw.Reddit(
-            client_id="CF6kIM4Ltf-C1mkvu5lChA",
-            client_secret="P9h4PEP4z6iffYDwT4UMK5SxoggqRg",
+            client_id="",
+            client_secret="",
             user_agent="data_pipeline"
         )
 
